@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9B331B4B22B453F800FDC646 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B331B4A22B453F800FDC646 /* main.swift */; };
+		9B331B5322B454F300FDC646 /* Users.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B331B5122B4546200FDC646 /* Users.json */; };
+		9B331B5522B45E3C00FDC646 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B331B5422B45E3C00FDC646 /* Address.swift */; };
+		9B331B5722B45E4F00FDC646 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B331B5622B45E4F00FDC646 /* user.swift */; };
+		9B331B5922B45F1300FDC646 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B331B5822B45F1300FDC646 /* Company.swift */; };
+		9B331B5B22B45F3400FDC646 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B331B5A22B45F3400FDC646 /* Geo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +25,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9B331B5222B454D100FDC646 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				9B331B5322B454F300FDC646 /* Users.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9B331B4722B453F800FDC646 /* ReadNewFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReadNewFile; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B331B4A22B453F800FDC646 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B331B5122B4546200FDC646 /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		9B331B5422B45E3C00FDC646 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		9B331B5622B45E4F00FDC646 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		9B331B5822B45F1300FDC646 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		9B331B5A22B45F3400FDC646 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +61,7 @@
 		9B331B3E22B453F800FDC646 = {
 			isa = PBXGroup;
 			children = (
+				9B331B5C22B4601200FDC646 /* Models */,
 				9B331B4922B453F800FDC646 /* ReadNewFile */,
 				9B331B4822B453F800FDC646 /* Products */,
 			);
@@ -57,9 +78,21 @@
 		9B331B4922B453F800FDC646 /* ReadNewFile */ = {
 			isa = PBXGroup;
 			children = (
+				9B331B5122B4546200FDC646 /* Users.json */,
 				9B331B4A22B453F800FDC646 /* main.swift */,
 			);
 			path = ReadNewFile;
+			sourceTree = "<group>";
+		};
+		9B331B5C22B4601200FDC646 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B331B5A22B45F3400FDC646 /* Geo.swift */,
+				9B331B5822B45F1300FDC646 /* Company.swift */,
+				9B331B5622B45E4F00FDC646 /* user.swift */,
+				9B331B5422B45E3C00FDC646 /* Address.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +105,7 @@
 				9B331B4322B453F800FDC646 /* Sources */,
 				9B331B4422B453F800FDC646 /* Frameworks */,
 				9B331B4522B453F800FDC646 /* CopyFiles */,
+				9B331B5222B454D100FDC646 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -119,7 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B331B5522B45E3C00FDC646 /* Address.swift in Sources */,
 				9B331B4B22B453F800FDC646 /* main.swift in Sources */,
+				9B331B5722B45E4F00FDC646 /* user.swift in Sources */,
+				9B331B5922B45F1300FDC646 /* Company.swift in Sources */,
+				9B331B5B22B45F3400FDC646 /* Geo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
